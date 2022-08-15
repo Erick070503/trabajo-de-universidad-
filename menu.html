@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <title>FOOT FACILITO</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <link rel="shortcut icon" href="imagenes/foot.jpeg">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .columna{
+            float: left;
+            width: 33%;
+            padding-right: 3px;
+        }
+        .fila::after{
+            content: "";
+            clear: both;
+            display: table;
+        }
+        img{
+            width: 90%;
+        }
+    </style>
+</head>
+<body>
+    <nav class="se-gris padding-largo">
+        <ul class="no-lista container text-center">
+            <li class="inline-block pacifico">
+                <a href="FOOT.html" class="verde">Food facilito</a>
+            </li>
+            <li class="inline-block">
+                <a href="contacto.html">Contacto</a>
+            </li>
+            <li class="inline-block">Acerca de</li>
+        </ul>
+    </nav>
+    <section>
+        <div class="text-center">
+            <h1 class="pacifico grande azul">Menu</h1>
+            <p>Todos los productos de preparan con procedimientos de calidad.</p>
+            <div class="fila">
+                <div class="columna">
+                    <h2 class="pacifico">Hot dog</h2>
+                    <img src="imagenes/hot dog.webp" alt="hot dog">
+                    <p>
+                        <strong>= 3 USD</strong>
+                    </p>
+                </div>
+                <div class="columna">
+                    <h3 class="pacifico">Hamburguesa</h3>
+                    <img src="imagenes/hamburguesa (1).jpg" alt="">
+                    <p>
+                        <strong>= 4 USD</strong>
+                    </p>
+                </div>
+                <div class="columna">
+                    <h4 class="pacifico">Sandwich</h4>
+                    <img src="imagenes/th5-640x426-34299.jpg" alt="">
+                    <p>
+                        <strong>= 2 USD</strong>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
